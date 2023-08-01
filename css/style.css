@@ -1,3 +1,5 @@
+
+
 body {
     color: white;
     background-color: #16171b;
@@ -19,8 +21,7 @@ body {
 #main-logo h1 {
     color: rgb(155, 155, 155);
     float: left;
-    margin-left: 0;
-    margin-top: 30px;
+    margin-top: 20px;
     font-family: fantasy;
     font-weight: 150;
     font-size: 25px; 
@@ -29,33 +30,26 @@ body {
 #main-logo ul {
     float: left;
     font-family: cursive;
-    display: inline-flex;
+    /*display: inline-flex;*/
     margin-right: 30px;
     margin-bottom: 0px;
 }
-#list li {
-    margin-top: 20px;
+#categories li {
+    display: inline-block;
+    margin-top: 10px;
     list-style-type: none;
     margin-right: 30px;
 }
 
-/*#list li {
-    position: relative;
-    left: 1020px;
-    font-family: 'Times New Roman';
-    display: inline-block;
-    margin-right: 30px;
-    margin-bottom: 0px;
-}*/
-#list a {
+#categories a {
     color: grey;
 }
 
 
-#list a:link {
+#categories a:link {
     text-decoration: none;
 }
-#list a:hover {
+#categories a:hover {
     color: rgb(228, 227, 227);
     text-decoration: none;
 }
@@ -178,14 +172,14 @@ section p {
     width: 1120px;
     height: 450px;
 }
-#shoes .icon{
+/*#shoes .icon{
     margin-top: 50px;
     width: 50px;
     height: 50px;
     background: rgb(100, 98, 100);
     padding: 0px 10px 0px 10px;
     border-radius: 10px;
-}
+}*/
 #shoes .pics {
     border-radius: 10px;
     width: 400px;
@@ -243,13 +237,7 @@ section p {
     background-color: rgb(41, 36, 36);
     border-radius: 10px;
  }
- #clothing .icon {
-    width: 20px;
-    height: 20px;
-    background-color: grey;
-    text-align: left;
-    margin-left: 10px;
- }
+ 
  #clothing .container {
 
     margin-bottom: 20px;
